@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    contextPath: /api
+spring:
+  application:
+    name: surb-events
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:test}
+
